@@ -32,11 +32,32 @@ public class Contacto {
     }
 
     /**
+     * Establece el nombre del contacto
+     * @param name nuevo nombre del contacto
+     * @return instancia actual del contacto
+     */
+    public Contacto setName(String name) {
+        this.name = name;
+        return this;
+    }
+
+    /**
      * Obtiene la lista de teléfonos del contacto
      *
-     * @return número de teléfono del contacto
+     * @return lista de números de teléfono del contacto
      */
     public List<String> getPhones() {
         return this.phones;
+    }
+
+    /**
+     * Establece la lista de teléfonos del contacto
+     *
+     * @param phones lista de números de teléfono a asignar a cada contacto
+     * @return instancia actual del contacto
+     */
+    public Contacto setPhones(List<String> phones) {
+        this.phones = phones;
+        return this;
     }
 }
