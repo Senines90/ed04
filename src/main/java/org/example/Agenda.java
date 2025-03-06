@@ -18,7 +18,7 @@ public class Agenda {
     }
 
     /**
-     * Método addContact para añadir un contacto a la lista
+     * Método para añadir un contacto a la lista
      *
      * @param name nombre del contacto
      * @param phone número de teléfono del contacto
@@ -40,7 +40,7 @@ public class Agenda {
     }
 
     /**
-     * Método removeContact para eliminar un contacto a la lista.
+     * Método para eliminar un contacto a la lista.
      * Si el contacto existe se elimina
      *
      * @param name nombre del contacto
@@ -58,7 +58,7 @@ public class Agenda {
     }
 
     /**
-     * Método modifyPhoneNumber que modifica el número de teléfono de un contacto
+     * Método que modifica el número de teléfono de un contacto
      * Si el antiguo número existe en la lista se reemplaza por el nuevo
      *
      * @param name nombre del contacto
